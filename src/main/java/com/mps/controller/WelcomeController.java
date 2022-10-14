@@ -18,7 +18,7 @@ public class WelcomeController {
 	@GetMapping("/greet")
 	public ResponseEntity<String> getGreet()
 	{
-		String msg="Good Evening";
+		String msg="Good Day";
 		return new ResponseEntity<>(msg,HttpStatus.OK);
 	}
 
